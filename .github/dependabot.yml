@@ -4,5 +4,31 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    commit-message:
+      prefix: "ci"
     cooldown:
       default-days: 7
+  - package-ecosystem: "pip"
+    directory: "/packages/markitdown"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "deps"
+  - package-ecosystem: "pip"
+    directory: "/packages/markitdown-mcp"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "deps"
+  - package-ecosystem: "pip"
+    directory: "/packages/markitdown-ocr"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "deps"
+  - package-ecosystem: "pip"
+    directory: "/packages/markitdown-sample-plugin"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "deps"

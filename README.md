@@ -23,6 +23,20 @@ MarkItDown currently supports the conversion from:
 - EPubs
 - ... and more!
 
+## About This Standalone Edition
+
+- **Main repository:** [microsoft/markitdown](https://github.com/microsoft/markitdown)
+- **Based on version:** upstream release `v0.1.8` (snapshot commit `4cc9fa17653d695d64fb9eee5b33d4de55ff84e8`, snapshotted 2026-10-20; upstream HEAD dated 2026-10-03)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - `.github/dependabot.yml` — extended the upstream Dependabot config with weekly pip dependency updates for all four packages (GitHub Actions entry kept)
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for the docs (upstream tests and pre-commit workflows kept as-is)
+  - `.editorconfig` — standard editor settings (UTF-8, LF, 2-space indent)
+- **Credit & licence:** All original work belongs to Microsoft and the upstream contributors. Licence is preserved unchanged — see `LICENSE` (MIT). This edition adds the enhancements listed above only.
+
 ## Why Markdown?
 
 Markdown is extremely close to plain text, with minimal markup or formatting, but still
